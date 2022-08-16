@@ -1,0 +1,514 @@
+{
+    "description": "Check the policies of existing or imaginary server and see",
+    "scores": [
+        {
+            "id": "dem",
+            "nameRight": "Democratic",
+            "nameLeft": "Autocratic",
+            "nameNeutral": "Democracy",
+            "iconLeft": "LocalPolice",
+            "iconRight": "Ballot",
+            "colorLeft": "#d32f2f",
+            "colorLeftDarkMode": "#ff6659",
+            "colorRight": "#0277bd",
+            "colorRightDarkMode": "#58a5f0"
+        },
+        {
+            "id": "bor",
+            "nameRight": "Open borders",
+            "nameLeft": "Closed borders",
+            "nameNeutral": "Border",
+            "iconLeft": "NoMeetingRoom",
+            "iconRight": "MeetingRoom",
+            "colorLeft": "#d32f2f",
+            "colorLeftDarkMode": "#ff6659",
+            "colorRight": "#0277bd",
+            "colorRightDarkMode": "#58a5f0"
+        },
+        {
+            "id": "prof",
+            "nameRight": "Non-profit",
+            "nameLeft": "For-profit",
+            "nameNeutral": "Profit",
+            "iconLeft": "AttachMoney",
+            "iconRight": "MoneyOff",
+            "colorLeft": "#d32f2f",
+            "colorLeftDarkMode": "#ff6659",
+            "colorRight": "#0277bd",
+            "colorRightDarkMode": "#58a5f0"
+        },
+        {
+            "id": "an",
+            "nameRight": "Anarchy",
+            "nameLeft": "Strict rules",
+            "nameNeutral": "Rules",
+            "iconLeft": "Rule",
+            "iconRight": "HdrAutoOutlined",
+            "colorLeft": "#d32f2f",
+            "colorLeftDarkMode": "#ff6659",
+            "colorRight": "#0277bd",
+            "colorRightDarkMode": "#58a5f0"
+        }
+    ],
+    "topics": [
+        {
+            "topic": "Policy",
+            "questions": [
+                {
+                    "question": "How can one join the server?",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "Invite from a friend",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Invite link on some website",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Invite link on another discord server",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Spam links",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Discord server search",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "This is a test server, so no way",
+                            "scores": [
+                                {"id": "bor", "value": -2}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "What are the safety measures on the server?",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "Confirmation of email",
+                            "scores": [
+                                {"id": "bor", "value": -1},
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Verification of the membership of another community",
+                            "scores": [
+                                {"id": "bor", "value": -1},
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Confirmation of the phone number",
+                            "scores": [
+                                {"id": "bor", "value": -1},
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Necessity of 2FA",
+                            "scores": [
+                                {"id": "bor", "value": -1},
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Interview with the administration",
+                            "scores": [
+                                {"id": "bor", "value": -2},
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "There is none",
+                            "scores": [
+                                {"id": "bor", "value": 2},
+                                {"id": "an", "value": 1}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "What are the rules?",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "No flood",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No spam",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No raiding other servers",
+                            "scores": [
+                                {"id": "an", "value": -1},
+                                {"id": "bor", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No profanity",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No caps",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No NSFW outside NSFW channels",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No earrape/flashy/other harmful content",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No roleplay outside specified channels",
+                            "scores": [
+                                {"id": "an", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "No doubting administration",
+                            "scores": [
+                                {"id": "an", "value": -1},
+                                {"id": "dem", "value": -3}
+                            ]
+                        },
+                        {
+                            "answer": "Be nice",
+                            "scores": []
+                        },
+                        {
+                            "answer": "NO RULES AT ALL",
+                            "scores": []
+                        }
+                    ]
+                },
+                {
+                    "question": "Is slowmode enabled?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "No slowmode at all or only in separate channels",
+                            "scores": [
+                                {"id": "dem", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Little slowmode everywhere",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Huge slowmode everywhere",
+                            "scores": [
+                                {"id": "dem", "value": -3}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "If there is one more rule to be added, what would administration do?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Add it without discussions",
+                            "scores": [
+                                {"id": "dem", "value": -3}
+                            ]
+                        },
+                        {
+                            "answer": "Discuss it with the administration, but not with the other members",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Discuss it with everyone on the server",
+                            "scores": [
+                                {"id": "dem", "value": 3}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Money",
+            "questions": [
+                {
+                    "question": "Does the server advertise itself?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Yes, even pays for it",
+                            "scores": [
+                                {"id": "bor", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Yes, but with unpaid ads",
+                            "scores": [
+                                {"id": "bor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Not at all",
+                            "scores": [
+                                {"id": "bor", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Unsure",
+                            "scores": []
+                        }
+                    ]
+                },
+                {
+                    "question": "Does server advertise anything?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "No",
+                            "scores": [
+                                {"id": "prof", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Yes, for free",
+                            "scores": [
+                                {"id": "prof", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Yes, for money",
+                            "scores": [
+                                {"id": "prof", "value": 1}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "How is administration compensated",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Everyone works as a volunteer",
+                            "scores": [
+                                {"id": "prof", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Everyone is paid",
+                            "scores": [
+                                {"id": "prof", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "There are both volunteers and paid administration members",
+                            "scores": []
+                        },
+                        {
+                            "answer": "Unsure",
+                            "scores": []
+                        }
+                    ]
+                },
+                {
+                    "question": "How is server getting money",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "Server boosts",
+                            "scores": [
+                                {"id": "prof", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Entry fees",
+                            "scores": [
+                                {"id": "prof", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "VIP memberships (including paid Admin/Moderator roles)",
+                            "scores": [
+                                {"id": "prof", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Donations from the fellow members",
+                            "scores": [
+                                {"id": "prof", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Rich owner/administration",
+                            "scores": [
+                                {"id": "prof", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Server is completely free, even boosters are not accepted",
+                            "scores": [
+                                {"id": "prof", "value": -1}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Administration",
+            "questions": [
+                {
+                    "question": "Who can become an administrator of the server?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Friends of the owner",
+                            "scores": [
+                                {"id": "dem", "value": -3}
+                            ]
+                        },
+                        {
+                            "answer": "Paid members",
+                            "scores": [
+                                {"id": "dem", "value": -2}
+                            ]
+                        },
+                        {
+                            "answer": "Trusted members",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Current/Former moderators",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Literally everyone",
+                            "scores": [
+                                {"id": "dem", "value": 3},
+                                {"id": "an", "value": 5}
+                            ]
+                        },
+                        {
+                            "answer": "Nobody",
+                            "scores": [
+                                {"id": "an", "value": -3}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "Who can become a moderator of the server?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Friends of the owner",
+                            "scores": [
+                                {"id": "dem", "value": -3}
+                            ]
+                        },
+                        {
+                            "answer": "Paid members",
+                            "scores": [
+                                {"id": "dem", "value": -2}
+                            ]
+                        },
+                        {
+                            "answer": "Trusted members",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Literally everyone",
+                            "scores": [
+                                {"id": "dem", "value": 3},
+                                {"id": "an", "value": 5}
+                            ]
+                        },
+                        {
+                            "answer": "Nobody",
+                            "scores": [
+                                {"id": "an", "value": -3}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "If there is moderators, what can they do?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "Kick",
+                            "scores": [
+                                {"id": "dem", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Ban",
+                            "scores": [
+                                {"id": "dem", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Assign other moderators",
+                            "scores": [
+                                {"id": "dem", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "Manage server",
+                            "scores": [
+                                {"id": "dem", "value": 2}
+                            ]
+                        },
+                        {
+                            "answer": "There is no moderators",
+                            "scores": [
+                                {"id": "dem", "value": -1}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

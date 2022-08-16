@@ -1,0 +1,111 @@
+{
+    "scores": [
+        {
+            "id": "cor",
+            "nameRight": "Correct",
+            "nameLeft": "Incorrect",
+            "nameNeutral": "Correctness",
+            "iconLeft": "Clear",
+            "iconRight": "Check",
+            "colorLeft": "#e57373",
+            "colorLeftDarkMode": "#d32f2f",
+            "colorRight": "#4fc3f7",
+            "colorRightDarkMode": "#0288d1"
+        },
+        {
+            "id": "lul",
+            "nameRight": "Score added for no reason at all",
+            "nameLeft": "Bruh",
+            "nameNeutral": "Yep",
+            "iconLeft": "Clear",
+            "iconRight": "Check",
+            "colorLeft": "red",
+            "colorRight": "blue"
+        }
+    ],
+    "topics": [
+        {
+            "topic": "checkboxes",
+            "questions": [
+                {
+                    "question": "Can you choose the second one?",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "No, uncheck it!",
+                            "scores": [
+                                {"id": "cor", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Yeah, that's the deal!",
+                            "scores": [
+                                {"id": "cor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Meh!",
+                            "scores": [
+                                {"id": "cor", "value": -1},
+                                {"id": "lul", "value": 1}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "question": "Can you choose the first and the third one?",
+                    "type": "several",
+                    "answers": [
+                        {
+                            "answer": "Heck yeah!",
+                            "scores": [
+                                {"id": "cor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Nonononono!",
+                            "scores": [
+                                {"id": "cor", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Good, you're on the right track!",
+                            "scores": [
+                                {"id": "cor", "value": 1}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "radios",
+            "questions": [
+                {
+                    "question": "Can you choose the first one?",
+                    "type": "one",
+                    "answers": [
+                        {
+                            "answer": "This one!",
+                            "scores": [
+                                {"id": "cor", "value": 1}
+                            ]
+                        },
+                        {
+                            "answer": "Nope, not this one!",
+                            "scores": [
+                                {"id": "cor", "value": -1}
+                            ]
+                        },
+                        {
+                            "answer": "Not this either!",
+                            "scores": [
+                                {"id": "cor", "value": -1}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
