@@ -51,20 +51,20 @@ const minMaxScores: [number, number][] = scores.map((score) => {
                             severalQuestionMaxScore + score,
                             severalQuestionMaxScore
                         );
-                    } else {
-                        severalQuestionMinScore = Math.min(
-                            score,
-                            severalQuestionMinScore
-                        );
-                        severalQuestionMaxScore = Math.max(
-                            score,
-                            severalQuestionMaxScore
-                        );
                     }
                 });
 
-                questionMinScore = severalQuestionMinScore - questionMinScore;
-                questionMaxScore = severalQuestionMaxScore - questionMaxScore;
+                questionMinScore = Math.min(
+                    severalQuestionMinScore - questionMinScore,
+                    answerScores[lastIndex]
+                );
+                questionMaxScore = Math.max(
+                    severalQuestionMaxScore - questionMaxScore,
+                    answerScores[lastIndex]
+                );
+            } else {
+                questionMinScore = Math.min(...answerScores)
+                questionMaxScore = Math.max(...answerScores)
             }
 
             minScoreValue += questionMinScore;
@@ -114,7 +114,7 @@ export default function Result() {
                 </Stack>
             ) : (
                 <Stack spacing={10} alignItems="center">
-                    <Typography variant="h2" color="error" align="center">
+                    <Typography variant="h3" component="h2" color="error" align="center">
                         Stop tampering with the URL, there{"'"}s literally no
                         way you could get this link by completing the test!
                     </Typography>

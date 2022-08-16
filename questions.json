@@ -474,7 +474,7 @@
                 },
                 {
                     "question": "If there is moderators, what can they do?",
-                    "type": "one",
+                    "type": "several",
                     "answers": [
                         {
                             "answer": "Kick",
