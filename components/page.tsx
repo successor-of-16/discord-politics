@@ -83,7 +83,7 @@ export default function Page({
                                     startIcon={<GitHubIcon />}
                                     href="https://github.com/successor-of-16/discord-politics"
                                 >
-                                    Source
+                                    Src
                                 </Button>
                                 <Button
                                     onClick={colorMode.toggleColorMode}
