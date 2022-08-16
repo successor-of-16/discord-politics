@@ -26,7 +26,7 @@
             "colorRightDarkMode": "#58a5f0"
         },
         {
-            "id": "prof",
+            "id": "noprof",
             "nameRight": "Non-profit",
             "nameLeft": "For-profit",
             "nameNeutral": "Profit",
@@ -302,37 +302,37 @@
                         {
                             "answer": "No",
                             "scores": [
-                                {"id": "prof", "value": -1}
+                                {"id": "noprof", "value": 1}
                             ]
                         },
                         {
                             "answer": "Yes, for free",
                             "scores": [
-                                {"id": "prof", "value": -1}
+                                {"id": "noprof", "value": 2}
                             ]
                         },
                         {
                             "answer": "Yes, for money",
                             "scores": [
-                                {"id": "prof", "value": 1}
+                                {"id": "noprof", "value": -1}
                             ]
                         }
                     ]
                 },
                 {
-                    "question": "How is administration compensated",
+                    "question": "How is administration compensated?",
                     "type": "one",
                     "answers": [
                         {
                             "answer": "Everyone works as a volunteer",
                             "scores": [
-                                {"id": "prof", "value": 2}
+                                {"id": "noprof", "value": -1}
                             ]
                         },
                         {
                             "answer": "Everyone is paid",
                             "scores": [
-                                {"id": "prof", "value": 1}
+                                {"id": "noprof", "value": 1}
                             ]
                         },
                         {
@@ -346,43 +346,43 @@
                     ]
                 },
                 {
-                    "question": "How is server getting money",
+                    "question": "How is server getting money?",
                     "type": "several",
                     "answers": [
                         {
                             "answer": "Server boosts",
                             "scores": [
-                                {"id": "prof", "value": 1}
+                                {"id": "noprof", "value": -1}
                             ]
                         },
                         {
                             "answer": "Entry fees",
                             "scores": [
-                                {"id": "prof", "value": 2}
+                                {"id": "noprof", "value": -2}
                             ]
                         },
                         {
                             "answer": "VIP memberships (including paid Admin/Moderator roles)",
                             "scores": [
-                                {"id": "prof", "value": 2}
+                                {"id": "noprof", "value": -2}
                             ]
                         },
                         {
                             "answer": "Donations from the fellow members",
                             "scores": [
-                                {"id": "prof", "value": 2}
+                                {"id": "noprof", "value": -2}
                             ]
                         },
                         {
                             "answer": "Rich owner/administration",
                             "scores": [
-                                {"id": "prof", "value": 2}
+                                {"id": "noprof", "value": -2}
                             ]
                         },
                         {
                             "answer": "Server is completely free, even boosters are not accepted",
                             "scores": [
-                                {"id": "prof", "value": -1}
+                                {"id": "noprof", "value": 1}
                             ]
                         }
                     ]
